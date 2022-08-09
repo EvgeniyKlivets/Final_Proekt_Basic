@@ -1,0 +1,276 @@
+/*header*/
+#header{
+    background: rgb(222, 184, 135);
+    /*padding: auto; /*отсутп внутри*/
+    z-index: 3;
+    
+    border-radius: 20%;
+    position: fixed; /*привязка банера к картинкам при листание*/
+    width: 100%;
+}
+.img{
+    height: 90px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.img_{
+    border-radius: 50%;
+    height: 90px;
+    width: 150px;
+    margin-top: 25px;
+    margin-left: 65px;}
+
+.cofe_chay{
+    
+    margin-left: 500px;
+    
+    color: #513a0f;
+}
+#logo{
+    display: flex;
+    width: 30%;
+}
+a:visited
+a:focus{
+    color: #fff;}
+.section-gap{
+    padding: 96px 0;
+}*/
+#nav-menu-container{
+    /*align-items: center;*/
+    /*display: flex;*/
+    max-width: 70%;
+    width: 100%;
+    justify-content: flex-end;}
+    #nav-menu-container .nav-menu{
+    display: flex;
+    list-style-type: none;/*убирает точки*/
+    margin-top: 50px;
+    margin-left: 150px;}
+    #nav-menu-container .nav-menu li {
+       margin: 0 5px;
+       margin-left: 15px;
+       margin-top: 10px;}
+    #nav-menu-container .nav-menu li a {
+        color: #fff;
+        text-decoration: none;}/*убирает подчёркивание*/
+    #nav-menu-container .nav-menu li a:hover {
+        color: #000;
+        text-decoration: none;}/*убирает подчёркивание*/
+    
+ /*Banner block*/
+ #home {
+     background-image: url(..images/images/cofe_chay_1.png);
+     
+     background-repeat: no-repeat; /*предназначено для управления повторного фона*/
+     background-size: cover; /*размер фонового изображения*/
+     
+ } 
+ 
+#home .banner-row{
+    height: 855px;
+}
+/*<div class="col-lg-7"> - экран делиться на 1-12 контейнеров*/
+
+#home .banner-slide-container{
+    padding: 2 0;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #fff; 
+    }
+.information{
+    margin-top: 5px;
+}
+.btn{
+    margin-top: 10px;
+}
+.btn_{
+    text-decoration: none;
+}
+/*About*/
+    
+#about .video{
+    background-image: url(..images/images/bg/video-bg.jpg);
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 49%;
+    border-radius: 20px;
+    position: relative;}
+    /* position: relative потом position: absolut*/
+#about .video .overlay{
+        position: absolute;
+        width: 98.5%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        z-index: 1;}
+.play-btn{
+    z-index: 2;  /*слои*/
+    /*align-self: center;
+    display: flex;
+    justify-content: center;*/}
+.img-fluit{
+    justify-content: flex-end;
+    list-style-type: none;
+    display: flex;
+    align-items: center}
+.foto{
+    padding-left: 70px;
+    width: 30%;}
+/*Coffe -доработать!*/
+#coffe{
+    background-image: url(..images/images/bg/menu-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.price{
+    padding-left: 50px;
+    padding-top: 5px;
+}
+/*.nadpis{
+    padding-left: 125px;
+}*/
+#coffe .coffe-item{
+    background: #fff;
+    padding: 20px;
+    margin: 16px 8px;
+    border-radius: 10px;
+    box-shadow: 0 4px 13px 0;
+}
+#coffe .coffe-item .price{
+    color: #b68834;
+    font-size: 18px; /*Определяет размер шрифта элемента*/
+    font-weight: 600; /*это насыщенность или толщина шрифта*/
+}
+.coffe {
+    border-radius: 30%;
+    width: 45px;
+}
+#gallery .img-fluid{
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+#blog{
+    background: #b68834;
+}
+.raw{
+    border-radius: 50px;
+}
+
+.tex {
+    color: #fff;
+}
+.star{
+    width: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.star_1{
+    width: 10px;
+    margin-right: px;
+    }
+ .star_2{
+    width: 10px;
+    margin-right:px;
+ }
+ .star_3{
+    width: 10px;
+ }    
+.row_{
+  list-style-type: none;
+  color: #fff;
+  margin-top: 70px;
+  
+}
+.r1{
+    padding-bottom: 30px;
+}
+/*галлеррия*/
+#blog_2{
+    margin-top: 10px;
+    background:gainsboro;
+}
+.b_1{
+    border-radius: 30px;
+}
+.portable{
+    margin-top: 10px;
+}
+.text_1{
+    color:burlywood;
+}
+/*contacts*/
+#contacts{
+    background-image: url(..images/images/bg/footer-bg.jpg);
+    padding-top: 10px;
+}
+.About_us{
+    margin-top: 150px;
+    
+}
+.text_2{
+    color: #fff;
+}
+.Colorlib{
+    color: gold;
+}
+.input{
+    border-radius: 30px;
+}
+.button{
+    border-radius: 30px;
+}
+body .alert .notification{
+    width: 25%;
+    position: fixed;
+    top: 70px;
+    right: 15px;
+}
+
+
+/*btn-outline-primary - делает цвет кнопки*/
+/* text-uppercase - стилизирует заголовки прописью*/
+
+/*register*/
+#register .video{
+    background-image: url(..images/images/register.jped);
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 49%;
+    border-radius: 20px;
+    position: relative;}
+    /* position: relative потом position: absolut*/
+.picture .overlay{
+        position: absolute;
+        width: 98.5%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        z-index: 1;}
+
+#login .video{
+            background-image: url(..images/images/login.jped);
+            align-self: center;
+            display: flex;
+            justify-content: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 350px;
+            width: 49%;
+            border-radius: 20px;
+            position: relative;}
+            /* position: relative потом position: absolut*/
+       
